@@ -1,0 +1,75 @@
+.services {
+    margin-bottom: 67px;
+}
+
+.services-heading {
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 40px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.services-list {
+    margin-bottom: 16px;
+    padding-right: 3px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.services-item {
+    border-radius: 15px;
+    background-color: #ffffff;
+    flex: 0 0 572px;
+    padding: 200px 41px 30px 44px;
+}
+  
+.services-item:nth-child(odd) {
+    margin-right: 20px;
+}
+  
+.services-item:not(:nth-last-child(-n+2)) {
+    margin-bottom: 25px;
+}
+  
+.services-item .arrow-img {
+    padding-right: 20px;
+    background-position-y: 4px;
+}
+  
+.services-link {
+    color: #cc9933;
+    font-size: 22px;
+}
+
+.services-description {
+    width: 400px;
+    margin: 5px 0 0 0;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.card-img {
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+} 
+  
+.service-img-exclusive {
+    background-image: url("../images/10.jpg");
+}
+  
+.service-img-banket-hall {
+    background-image: url("../images/15.jpg");
+}
+  
+.service-img-pools {
+    background-image: url("../images/12.jpg");
+}
+  
+.service-img-parking {
+    background-image: url("../images/17.jpg");
+}
