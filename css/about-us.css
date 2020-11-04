@@ -1,0 +1,19 @@
+.about-us {
+  margin-bottom: 53px;
+  padding-left: 40px;
+}
+
+.about-us-heading {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.about-us-text {
+  color: #666666;
+  width: 910px;
+  line-height: 2;
+  margin: 8px 0 0 0;
+  padding-left: 2px;
+}

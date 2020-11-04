@@ -1,0 +1,117 @@
+main {
+    padding-top: 68px;
+}
+
+.hero-container {
+    margin-bottom: 65px;
+    display: flex;
+}
+
+.hero-heading {
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 40.5px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+  
+.fast-booking {
+    flex: 1 1 520px;
+    margin-right: 55px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.booking-input {
+    border-radius: 15px;
+    padding: 19px 20px 19px 20px;
+    margin-bottom: 24px;
+    /* font-size: 16px; */
+    line-height: 2;
+    border: none;
+    display: inline-block;
+}
+  
+.submit-and-results {
+    display: flex;
+    align-items: baseline;
+}
+  
+.find-number {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #cc9933;
+    padding: 26px 30px;
+    margin-right: 29px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+}
+
+.booking-stats {
+    color: #a4a4a4;
+}
+
+.numbers-availible {
+    color: #cc9933;
+}
+  
+.offer {
+    border-radius: 10px;
+    background-image: url("../images/22.jpg");
+    padding-top: 268px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right: 77px;
+    padding-bottom: 37px;
+}
+
+.special-offer-heading {
+    padding-left: 43px;
+}
+
+.special-offer {
+    flex: 1 1 600px;
+}
+
+.promo-heading {
+    font-size: 66px;
+    color: #ffffff;
+    width: 480px;
+    line-height: 58px;
+    margin-bottom: 33px;
+    margin-top: 0;
+}
+  
+.offer-info {
+    display: flex;
+    align-items: flex-end;
+}
+  
+.offer-text {
+    font-weight: 500;
+    line-height: 30px;
+    color: #948b85;
+    font-size: 35px;
+    margin-right: 41px;
+    margin-bottom: 0;
+    margin-top: 0;  
+} 
+  
+.offer-link {
+    color: #cc9933;
+}
+  
+.arrow-img {
+    background-image: url("../images/arrow.png");
+    background-position-x: right;
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+  

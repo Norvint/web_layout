@@ -1,0 +1,82 @@
+.footer {
+    padding-bottom: 53px;
+}
+
+.footer-container {
+    background-image: url('../images/logo_sun.png');
+    background-repeat: no-repeat;
+    background-position-x: 733px;
+    background-position-y: bottom;
+    display: flex;
+    padding: 42px 52px;
+    background-color: #333333;
+    border-radius: 12px;
+}
+
+.footer-left {
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    line-height: 32px;
+    margin-right: 122px;
+}
+
+.copyrights {
+    color: #ffffff;
+    margin: 0 0 31px 0;
+}
+
+.copyrights-info {
+    color: #ffffff;
+    margin: 0 0 32px 0;
+}
+
+.copyrights-link {
+    color: #bc8e33;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    margin-right: 260px;
+}
+
+.footer-addres {
+    line-height: 32px;
+    margin-bottom: 27px;
+    color: #ffffff;
+}
+
+.footer-phone {
+    line-height: 24px;
+}
+
+.footer-phones-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.footer-emails-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-email {
+    line-height: 24px;
+}
+
+.footer-right {
+    padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.socials-link:not(:last-child) {
+    margin-bottom: 14.3px;
+}

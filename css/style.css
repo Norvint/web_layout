@@ -1,0 +1,60 @@
+/* Свойства width и height включают в себя значения полей и границ, но не отступов margin */
+html {
+  box-sizing: border-box;
+}
+
+/* Все элементы наследуют box-sizing родителя, т.е. элемента html */
+*,
+*::before,
+*::after{
+ box-sizing: inherit;
+}
+
+body {
+  /* Отступы равны нулю */
+  margin: 0;
+  /* Фон белый */
+  background-color: #f1f1f1;
+  /* Шрифты и семейство */
+  font-family: "Muller", "Arial", sans-serif;
+  /* Размер шрифта */
+  font-size: 16px;
+  /* Цвет текста */
+  color: #000;
+  word-wrap: break-word;
+}
+
+a {
+  /* Убираем подчеркивание со ссылок */
+  text-decoration: none;
+  /* Цвет текста наследуется от родителя body */
+  color: inherit;
+}
+
+/* Невидимый элемент */
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.container {
+  /* ширина контейнера 1200 пикселей */
+  width: 1200px;
+  /* Внутренний отступ мы задаем на случай, если ширина дисплея будет такой, что внешний отступ будет равен 0, чтобы контейнер не прижимался к краям
+  (Насколько я понял) */
+  padding: 0 15px;
+  /* Автоматически подобрать отступы */
+  margin: 0 auto;
+}
+
+/* Убираем маркеры с элементов списка */
+.list-reset {
+  list-style: none;
+  margin: 0;
+}
