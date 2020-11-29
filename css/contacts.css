@@ -18,7 +18,7 @@
 
 .contacts-card {
     background-color: #ffffff;
-    padding: 33px 45px 45px 45px;
+    padding: 47px 45px 45px 43px;
     border-radius: 15px;
 }
 
@@ -30,7 +30,7 @@
 .contacts-list-item {
     display: flex;
     flex-direction: row;
-    padding-bottom: 23px;
+    padding-bottom: 21px;
     border-bottom: 1px solid #c4c4c4;
 }
 
@@ -79,7 +79,7 @@
     background-color: #ffffff;
     color: #cc9933;
     font-weight: 700;
-    margin-top: 29px;
+    margin-top: 45px;
 }
 
 .feedback-section {

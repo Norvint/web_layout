@@ -36,6 +36,7 @@
 }
 
 .footer-center {
+    font-style: normal;
     display: flex;
     flex-direction: column;
     margin-right: 260px;
@@ -43,6 +44,7 @@
 
 .footer-addres {
     line-height: 32px;
+    margin-top: 0;
     margin-bottom: 27px;
     color: #ffffff;
 }
@@ -66,17 +68,46 @@
     line-height: 24px;
 }
 
-.footer-right {
+.socials-list {
+    list-style: none;
+    margin: 0;
     padding-top: 7px;
     display: flex;
     flex-direction: column;
 }
 
-.social-icon {
-    width: 25px;
-    height: 25px;
+.socials-list-item {
+    width: 23px;
+    height: 23px;
 }
 
-.socials-link:not(:last-child) {
-    margin-bottom: 14.3px;
+.social-link {
+    display: block;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.tripadvisor-icon {
+    background-image: url('../images/tripadvisor.svg');
+}
+
+.twitter-icon {
+    background-image: url('../images/twitter.svg');
+}
+
+.facebook-icon {
+    background-image: url('../images/facebook.svg');
+}
+
+.vk-icon {
+    background-image: url('../images/social.svg');
+}
+
+.google-icon {
+    background-image: url('../images/google-plus-social-logotype.svg');
+}
+
+.socials-list-item:not(:last-child) {
+    margin-bottom: 21.3px;
 }

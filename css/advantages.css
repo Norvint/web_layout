@@ -26,20 +26,17 @@
     margin-bottom: 23px;
 }
 
-.advantage-description {
+.advantage {
     margin: 0;
     line-height: 32px;
     font-weight: 500;
-}
-  
-.advantage-icon {
     background-position-x: left;
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: 60px;
     padding-top: 73px;
 }
-
+  
 .advantages-item:nth-last-child(-n+4) {
     margin-bottom: 0;
 }
