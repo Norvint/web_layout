@@ -70,6 +70,11 @@
 
 .contacts-link {
     color: #cc9933;
+    transition: color 0.3s ease;
+}
+
+td .contacts-link:hover {
+    color: #000000;
 }
 
 .contacts-button {
@@ -80,6 +85,12 @@
     color: #cc9933;
     font-weight: 700;
     margin-top: 45px;
+    transition: color, background-color 0.3s ease;
+}
+
+.contacts-button:hover {
+    color: #ffffff;
+    background-color: #cc9933;
 }
 
 .feedback-section {
@@ -118,9 +129,16 @@
 }
 
 .feedback-button {
-    padding: 25px 0;
-    border: none;
+    padding: 24px 0;
+    border: 1px solid var(--lagoona-color);
     border-radius: 12px;
     color: #ffffff;
-    background-color: #cc9933;
+    background-color: var(--lagoona-color);
+    transition: color, background-color 0.3s ease;
 }
+
+.feedback-button:hover {
+    color: var(--lagoona-color);
+    background-color: #ffffff;
+}
+

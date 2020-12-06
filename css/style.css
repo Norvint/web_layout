@@ -1,4 +1,8 @@
 /* Свойства width и height включают в себя значения полей и границ, но не отступов margin */
+:root {
+  --lagoona-color: #cc9933;
+}
+
 html {
   box-sizing: border-box;
 }
