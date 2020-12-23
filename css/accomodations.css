@@ -1,5 +1,5 @@
 .accomodation {
-    margin-bottom: 30px;
+    margin-bottom: 34px;
 }
 
 .accomodation-heading {
@@ -21,7 +21,7 @@
     border-radius: 15px;
     flex: 0 0 370px;
     margin-right: 25px;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
     background-color: #ffffff;
 }
   
@@ -90,10 +90,11 @@
     color: var(--lagoona-color);
     border: 1px solid var(--lagoona-color);
     padding: 10px 18px 10px 18px;
-    transition: color, background-color 0.3s ease;
+    transition: color, background-color 0.2s ease;
 }
 
-.hotel-link:hover {
+.hotel-link:hover,
+.hotel-link:focus {
     color: #ffffff;
     background-color: var(--lagoona-color);
 }
@@ -129,10 +130,11 @@
     width: 300px;
     font-size: 22px;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
-.accomodation-final-link:hover {
+.accomodation-final-link:hover,
+.accomodation-final-link:focus {
     transform: translateX(10px);
 }
 

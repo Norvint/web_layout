@@ -9,8 +9,6 @@
 }
 
 .header-logo {
-  width: 260px;
-  height: 55px;
   margin-right: 26px;
 }
 
@@ -20,10 +18,11 @@
   font-size: 22px;
   padding-top: 1px;
   margin-right: auto;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
-.header-tel:hover {
+.header-tel:hover,
+.header-tel:focus {
   color: var(--lagoona-color);
 }
 
@@ -34,7 +33,7 @@
   padding-top: 5px;
   padding-right: 10px;
   padding-left: 21px;
-  transition: color, background-image, transform 0.3s ease;
+  transition: color, background-image, transform 0.2s ease;
 }
   
 .profile-arrow-icon {
@@ -43,7 +42,8 @@
   background-repeat: no-repeat;
 }
 
-.profile-reference:hover {
+.profile-reference:hover,
+.profile-reference:focus {
   background-image: url("../images/profile-gray-arrow.png");
   color:#666666;
   transform: translateX(5px);
@@ -80,10 +80,11 @@
   font-size: 16px;
   line-height: 2;
   padding-top: 1px;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--lagoona-color);
 }
 

@@ -3,7 +3,7 @@
 }
 
 .hero-container {
-    margin-bottom: 65px;
+    margin-bottom: 63px;
     display: flex;
 }
 
@@ -49,10 +49,11 @@
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
-    transition: color, background-color 0.3s ease;
+    transition: color, background-color 0.2s ease;
 }
 
-.find-number:hover {
+.find-number:hover,
+.find-number:focus {
     color: var(--lagoona-color);
     background-color: #ffffff;
 }
@@ -110,10 +111,11 @@
   
 .offer-link {
     color: var(--lagoona-color);
-    transition: color, background-image, transform  0.3s ease;
+    transition: color, background-image, transform  0.2s ease;
 }
 
-.offer-link:hover {
+.offer-link:hover,
+.offer-link:focus {
     color: #ffffff;
     transform: translate(10%, 0);
     background-image: url("../images/white-arrow.png");
@@ -121,8 +123,9 @@
   
 .arrow-img {
     background-image: url("../images/arrow.png");
-    background-position-x: right;
-    background-position-y: 2px;
+    background-position: 98% 2px;
+    /* background-position-x: right;
+    background-position-y: 2px; */
     background-repeat: no-repeat;
     padding-right: 15px;
 }

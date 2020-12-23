@@ -8,7 +8,7 @@
     font-size: 40px;
     font-weight: 400;
     padding-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     margin-top: 0;
 }
 
@@ -70,10 +70,11 @@
 
 .contacts-link {
     color: #cc9933;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
-td .contacts-link:hover {
+.contacts-list-item .contacts-link:hover,
+.contacts-list-item .contacts-link:focus {
     color: #000000;
 }
 
@@ -85,10 +86,11 @@ td .contacts-link:hover {
     color: #cc9933;
     font-weight: 700;
     margin-top: 45px;
-    transition: color, background-color 0.3s ease;
+    transition: color, background-color 0.2s ease;
 }
 
-.contacts-button:hover {
+.contacts-button:hover,
+.contacts-button:focus {
     color: #ffffff;
     background-color: #cc9933;
 }
@@ -98,7 +100,7 @@ td .contacts-link:hover {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 138px;
+    padding-top: 137px;
 }
 
 .feedback-header {
@@ -134,10 +136,11 @@ td .contacts-link:hover {
     border-radius: 12px;
     color: #ffffff;
     background-color: var(--lagoona-color);
-    transition: color, background-color 0.3s ease;
+    transition: color, background-color 0.2s ease;
 }
 
-.feedback-button:hover {
+.feedback-button:hover,
+.feedback-button:focus {
     color: var(--lagoona-color);
     background-color: #ffffff;
 }

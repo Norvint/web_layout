@@ -1,5 +1,5 @@
 .services {
-    margin-bottom: 67px;
+    margin-bottom: 65px;
 }
 
 .services-heading {
@@ -43,10 +43,11 @@
     color: #cc9933;
     font-size: 22px;
     display: inline-block;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
-.services-link:hover {
+.services-link:hover,
+.services-link:focus {
     transform: translateX(10px);
 }
 

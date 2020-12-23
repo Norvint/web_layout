@@ -60,9 +60,10 @@
     margin-bottom: 24px;
 }
 
-.footer-phones-container .footer-phone:hover,
-.footer-emails-container .footer-email:hover,
-.copyrights-link:hover {
+.footer .contacts-link:hover,
+.copyrights-link:hover,
+.footer .contacts-link:focus,
+.copyrights-link:focus {
     color: #ffffff;
 }
 
