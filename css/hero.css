@@ -70,7 +70,7 @@
     border-radius: 10px;
     background-image: url("../images/22.jpg");
     padding-top: 268px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-left: 40px;
     padding-right: 77px;
@@ -111,22 +111,20 @@
   
 .offer-link {
     color: var(--lagoona-color);
-    transition: color, background-image, transform  0.2s ease;
+    transition: color, background-image, background-position  0.2s ease;
 }
 
 .offer-link:hover,
 .offer-link:focus {
     color: #ffffff;
-    transform: translate(10%, 0);
+    background-position: 100% 1px;
     background-image: url("../images/white-arrow.png");
 }
   
 .arrow-img {
     background-image: url("../images/arrow.png");
-    background-position: 98% 2px;
-    /* background-position-x: right;
-    background-position-y: 2px; */
+    background-position: 93% 1px;
     background-repeat: no-repeat;
-    padding-right: 15px;
+    padding-right: 25px;
 }
   

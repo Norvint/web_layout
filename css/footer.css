@@ -33,7 +33,7 @@
 
 .copyrights-link {
     color: #bc8e33;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
 .footer-center {
@@ -94,26 +94,52 @@
     background-repeat: no-repeat;
     width: inherit;
     height: inherit;
+    transition: background-image 0.2s ease;
 }
 
 .tripadvisor-icon {
     background-image: url('../images/tripadvisor.svg');
 }
 
+.tripadvisor-icon:hover,
+.tripadvisor-icon:focus {
+    background-image: url('../images/yellow-tripadvisor.svg');
+}
+
 .twitter-icon {
     background-image: url('../images/twitter.svg');
+}
+
+.twitter-icon:hover,
+.twitter-icon:focus {
+    background-image: url('../images/yellow-twitter.svg');
 }
 
 .facebook-icon {
     background-image: url('../images/facebook.svg');
 }
 
+.facebook-icon:hover,
+.facebook-icon:focus {
+    background-image: url('../images/yellow-facebook.svg');
+}
+
 .vk-icon {
     background-image: url('../images/social.svg');
 }
 
+.vk-icon:hover,
+.vk-icon:focus {
+    background-image: url('../images/yellow-social.svg');
+}
+
 .google-icon {
     background-image: url('../images/google-plus-social-logotype.svg');
+}
+
+.google-icon:hover,
+.google-icon:focus {
+    background-image: url('../images/yellow-google-plus-social-logotype.svg');
 }
 
 .socials-list-item:not(:last-child) {

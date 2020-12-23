@@ -106,7 +106,7 @@
 }
   
 .accomodation-item:last-child {
-    padding: 0px 37px 0px 37px;
+    padding: 0;
 }
 
 .accomodation-item:nth-last-child(-n+3) {
@@ -127,21 +127,20 @@
 
 .accomodation-final-link {
     color: #ffffff;
-    width: 300px;
     font-size: 22px;
     display: block;
-    transition: transform 0.2s ease;
+    transition: background-position 0.2s ease;
 }
 
 .accomodation-final-link:hover,
 .accomodation-final-link:focus {
-    transform: translateX(10px);
+    background-position: 93% 370px;
 }
 
 .white-arrow-img {
-    padding-right: 20px;
+    padding-left: 37px;
+    padding-right: 57px;
     background-image: url("../images/white-arrow.png");
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 370px;
+    background-position: 90% 370px;
 }

@@ -109,4 +109,10 @@
   background-position: top 3px right;
   width: 20px;
   border: inherit;
+  transition: background-image 0.2s ease;
+}
+
+.magnifier-icon:hover,
+.magnifier-icon:focus {
+  background-image: url("../images/yellow-search.svg");
 }
