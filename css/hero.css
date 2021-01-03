@@ -11,13 +11,11 @@
     font-size: 40px;
     font-weight: 400;
     padding-left: 40.5px;
-    margin-bottom: 18px;
-    margin-top: 0;
+    margin: 0 0 18px 0;
 }
   
 .fast-booking {
-    flex: 1 1 520px;
-    margin-right: 55px;
+    padding-right: 25px;
 }
 
 .booking-form {
@@ -69,20 +67,14 @@
 .offer {
     border-radius: 10px;
     background-image: url("../images/22.jpg");
-    padding-top: 268px;
+    background-color: #000000;
+    padding: 268px 77px 37px 40px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 40px;
-    padding-right: 77px;
-    padding-bottom: 37px;
 }
 
 .special-offer-heading {
     padding-left: 43px;
-}
-
-.special-offer {
-    flex: 1 1 600px;
 }
 
 .promo-heading {
@@ -90,8 +82,7 @@
     color: #ffffff;
     width: 480px;
     line-height: 58px;
-    margin-bottom: 33px;
-    margin-top: 0;
+    margin: 0 0 33px 0;
 }
   
 .offer-info {
@@ -104,9 +95,7 @@
     line-height: 30px;
     color: #948b85;
     font-size: 35px;
-    margin-right: 41px;
-    margin-bottom: 0;
-    margin-top: 0;  
+    margin: 0 41px 0 0;
 } 
   
 .offer-link {

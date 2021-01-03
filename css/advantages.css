@@ -1,13 +1,12 @@
 .advantages {
-    margin-bottom: 67px;
+    margin-bottom: 62px;
 }
 
 .advantages-heading {
     font-size: 40px;
     font-weight: 400;
-    padding-left: 40px;
-    margin-bottom: 20px;
-    margin-top: 0;
+    padding-left: 55px;
+    margin: 0 0 20px 0;
 }
 
 .advantages-list {
@@ -17,13 +16,15 @@
     flex-wrap: wrap;
 }
   
-.advantages-item {
+.advantages-card {
     border-radius: 15px;
     background-color: #ffffff;
-    flex: 0 1 277px;
-    padding: 42px 45px 32px 45px;
-    margin-right: 20px;
-    margin-bottom: 23px;
+    padding: 42px 40px 32px 45px;
+}
+
+.advantages-item {
+    padding: 0 12px;
+    margin-bottom: 25px;
 }
 
 .advantage {
@@ -39,10 +40,6 @@
   
 .advantages-item:nth-last-child(-n+4) {
     margin-bottom: 0;
-}
-
-.advantages-item:nth-child(4n) {
-    margin-right: 0px;
 }
   
 .advantage-icon-buthtub {

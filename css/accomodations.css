@@ -5,24 +5,24 @@
 .accomodation-heading {
     font-size: 40px;
     font-weight: 400;
-    padding-left: 40px;
-    margin-bottom: 18px;
-    margin-top: 0;
+    padding-left: 55px;
+    margin: 0 0 20px 0;
 }
 
 .accomodation-list {
-    padding-bottom: 30px;
-    padding-left: 0px;
+    padding: 0 0 30px 0;
     display: flex;
     flex-wrap: wrap;
 }
   
-.accomodation-item {
+.accomodation-card {
     border-radius: 15px;
-    flex: 0 0 370px;
-    margin-right: 25px;
-    margin-bottom: 26px;
     background-color: #ffffff;
+}
+
+.accomodation-item {
+    margin-bottom: 26px;
+    padding: 0 14px 0 13px;
 }
   
 .accomodation-item:nth-child(3n) {
@@ -31,24 +31,23 @@
 
 .hotel-image {
     border-radius: 15px 15px 0 0;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 .hotel-info {
-    padding: 0 46px 44px 44px;
+    padding: 0 42px 44px 45px;
 }
   
 .hotel-price-and-rating {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
   
 .hotel-price {
     font-weight: 500;
     line-height: 1;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 33px;
+    margin: 0 33px 0 0;
 }
   
 .hotel-price-prefix {
@@ -73,15 +72,13 @@
 .hotel-title {
     font-weight: 500;
     font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 12px;
+    margin: 0 0 12px 0;
 }
   
 .hotel-location {
     color: #a4a4a4;
     line-height: 1.5;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
   
 .hotel-link {
@@ -89,7 +86,7 @@
     border-radius: 10px;
     color: var(--lagoona-color);
     border: 1px solid var(--lagoona-color);
-    padding: 10px 18px 10px 18px;
+    padding: 10px 18px;
     transition: color, background-color 0.2s ease;
 }
 
@@ -98,15 +95,16 @@
     color: #ffffff;
     background-color: var(--lagoona-color);
 }
-  
+
+.accomodation-final-card {
+    border-radius: 15px;
+    background-color: #000000;
+}
+
 .accomodation-final-img {
     background-image: url("../images/41.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-  
-.accomodation-item:last-child {
-    padding: 0;
 }
 
 .accomodation-item:nth-last-child(-n+3) {
@@ -120,7 +118,7 @@
 }
 
 .accomodation-final-link::after {
-    height: 40px;
+    height: 47px;
     display: block;
     content: "";
 }
@@ -138,8 +136,7 @@
 }
 
 .white-arrow-img {
-    padding-left: 37px;
-    padding-right: 57px;
+    padding: 0 37px;
     background-image: url("../images/white-arrow.png");
     background-repeat: no-repeat;
     background-position: 90% 370px;
