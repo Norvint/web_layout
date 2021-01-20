@@ -1,0 +1,97 @@
+.heading {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: normal;
+}
+
+.about-us__heading {
+    margin-bottom: 20px;
+}
+
+.about-us__description {
+    line-height: 32px;
+    max-width: 1232px;
+    margin-bottom: 44px;
+}
+
+.i-tooltip {
+    background-image: url('../images/i\ -\ Тултип.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px 13px;
+}
+
+.principals {
+    display: flex;
+}
+
+.principals__concept {
+    padding-top: 446px;
+    color: #ffffff;
+}
+
+
+.concept {
+    background-image: url('../images/Rectangle\ 2.jpg');
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 870px;
+}
+
+.concept__container {
+    padding: 40px 66px 42px 53px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.concept__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 32px;
+    margin-right: 76px;
+}
+
+.concept__link {
+    align-self: center;
+    padding: 20px 37px;
+    border: 3px solid #FF9900;
+}
+
+.principals__list {
+    padding-left: 28px;
+}
+
+.principals__item {
+    padding: 68px 108px 64px 300px;
+    border: 1px solid #CACACA;
+    background-repeat: no-repeat;
+}
+
+.principals__item:not(:last-child) {
+    margin-bottom: 27px;
+}
+
+.principals__heading {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.principals__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 32px;
+    max-width: 460px;
+}
+
+.box-icon {
+    background-image: url('../images/Group\ 25.svg');
+    background-position: 64px 73px;
+}
+
+.gears-icon {
+    background-image: url('../images/Group\ 24.svg');
+    background-position: 64px 59px;
+}

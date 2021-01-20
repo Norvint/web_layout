@@ -1,0 +1,35 @@
+.hero {
+    background-image: url('../images/low-angle-photo-of-balconies-2462015\ 1.jpg');
+    padding: 102px 80px 115px 80px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+    margin-bottom: 102px;
+}
+
+.hero__container {
+    padding-right: 5px;
+}
+
+.hero__heading {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 86px;
+    max-width: 841px;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.hero__description {
+    margin-top: 0;
+    margin-bottom: 123px;
+    max-width: 836px;
+    letter-spacing: 0.3px;
+}
+
+.hero__link {
+    padding: 26px 38px;
+    background-color: #FF9900;
+    letter-spacing: 0.3px;
+}
