@@ -1,0 +1,64 @@
+.working {
+    margin-bottom: 102px;
+}
+
+.working__offers {
+    display: flex;
+}
+
+.working__heading {
+    margin-bottom: 45px;
+}
+
+.working__list {
+    padding-left: 0;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.working__button {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.working__item:not(:last-child) {
+    margin-right: 85px;
+}
+
+.offers__information {
+    padding-left: 3px;
+    max-width: 761px;
+    margin-right: auto;
+}
+
+.offers__heading {
+    font-size: 24px;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.offers__description {
+    margin-top: 0;
+    margin-bottom: 83px;
+    line-height: 32px;
+}
+
+.offers__link {
+    color: #ffffff;
+    align-self: center;
+    font-weight: 700;
+    padding: 20px 38px;
+    background-color: #FF9900;
+    margin-right: 27px;
+}
+
+.offers__download {
+    border: 1px solid #000000;
+    padding: 19px 37px;
+}
+
+.offers__image {
+    padding-top: 9px;
+}

@@ -1,0 +1,86 @@
+.footer {
+    background-color: #222222;
+    padding: 48px 60px 80px 75px;
+    display: flex;
+}
+
+.footer__left {
+    margin-right: auto;
+}
+
+.footer__logo-link {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer__nav {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #CACACA;
+    margin-bottom: 115px;
+}
+
+.footer__list {
+    padding-left: 0;
+}
+
+.footer__item {
+    margin-bottom: 16px;
+}
+
+.socials__list {
+    display: flex;
+    padding-left: 0;
+}
+
+.socials__item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.socails__link {
+    display: inline-block;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 30px;
+}
+
+.fb-icon {
+    background-image: url('../images/fb.svg');
+}
+
+.vk-icon {
+    background-image: url('../images/vk.svg');
+}
+
+.ig-icon {
+    background-image: url('../images/instagram.svg');
+}
+
+.footer__middle {
+    min-width: 570px;
+    margin-right: 237px;
+}
+
+.footer__heading {
+    color: #CACACA;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__input {
+    padding: 14px 24px;
+}
+
+.footer__right {
+    padding-top: 64px;
+    max-width: 363px;
+    line-height: 32px;
+    color: #CACACA;
+}
