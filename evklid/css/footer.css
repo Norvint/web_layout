@@ -1,6 +1,9 @@
 .footer {
     background-color: #222222;
-    padding: 48px 60px 80px 75px;
+}
+
+.footer__container {
+    padding: 48px 5px 80px 15px;
     display: flex;
 }
 
@@ -65,7 +68,7 @@
 .footer__heading {
     color: #CACACA;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     padding-top: 10px;
 }
 
@@ -75,10 +78,41 @@
 }
 
 .footer__input {
-    padding: 14px 24px;
+    padding: 23px 27px 21px 27px;
+    background-color: #414141;
+    margin-bottom: 22px;
+    border: none;
+}
+
+.footer__input::placeholder {
+    color: #CACACA;
+}
+
+.message-input {
+    padding: 24px 27px 112px 27px;
+    margin-bottom: 30px;
+}
+
+.footer__submit {
+    color: #ffffff;
+    align-self: center;
+    font-weight: 700;
+    padding: 20px 51.5px;
+    border: 1px solid #FF9900;
+    background-color: #FF9900;
+    margin-right: 20px;
+}
+
+.footer__checkbox {
+    background-color: transparent;
+}
+
+.footer__label {
+    color: #CACACA;
 }
 
 .footer__right {
+    color: #CACACA;
     padding-top: 64px;
     max-width: 363px;
     line-height: 32px;
